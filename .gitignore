@@ -19,3 +19,6 @@ Gemfile.lock
 
 # Local environment variables and API credentials
 .env
+
+# Python bytecode cache directories
+__pycache__/

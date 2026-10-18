@@ -12,8 +12,7 @@ def get_groq_llm():
         max_tokens=1000
     )
 
-llm=get_groq_llm()
-
-result=llm.invoke("write a 5 line poem on cricket")
-#print(result)
-print(result.content)
+if __name__ == "__main__":
+    llm = get_groq_llm()
+    result = llm.invoke("write a 5 line poem on cricket")
+    print(result.content)

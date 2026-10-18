@@ -27,6 +27,14 @@ Run an example from the `01_LLMs` directory, for example:
 uv run python 01_LLMs/1_llm.py
 ```
 
+> **Warning:** Running `01_LLMs/4_chatmodel_hf_api.py` downloads the
+> `HuggingFaceH4/zephyr-7b-beta` model (about 7 GB) to run locally. The initial
+> download can take a considerable amount of time.
+>
+> **Note:** `01_LLMs/7_document_similarity.py` is currently not working as
+> expected. Try `01_LLMs/8_gemini_document_similarity.py` to test similarity
+> search instead.
+
 ## Configure API keys
 
 Create a `.env` file in the project root. Add the credentials for the provider(s)
